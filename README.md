@@ -41,6 +41,9 @@ Retorna todos os produtos cadastrados.
 ]
 Código 200: Lista de produtos retornada com sucesso.
 Código 404: Nenhum produto encontrado.
+
+```
+
 2. GET /products/{id}
 Retorna um produto específico pelo id.
 
