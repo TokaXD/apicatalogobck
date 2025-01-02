@@ -19,9 +19,9 @@ public class Program
 
         builder.Services.AddDbContext<ApiCatalogoContext>(options =>
             options.UseMySql(mysqlConnectionString, ServerVersion.AutoDetect(mysqlConnectionString)));
-        
+
         var app = builder.Build();
-        
+
         if (app.Environment.IsDevelopment())
         {
             app.MapOpenApi();
